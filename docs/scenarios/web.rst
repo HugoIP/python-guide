@@ -167,8 +167,8 @@ programming languages and protocols - including Python and WSGI. uWSGI can
 either be run as a stand-alone web router, or be run behind a full web
 server (such as Nginx or Apache).  In the latter case, a web server can
 configure uWSGI and an application's operation over the
-`uwsgi <https://uwsgi-docs.readthedocs.org/en/latest/Protocol.html>`_
-protocol.  uWSGI's web server support allows for dynamically configuring
+`uwsgi protocol <https://uwsgi-docs.readthedocs.org/en/latest/Protocol.html>`_.
+uWSGI's web server support allows for dynamically configuring
 Python, passing environment variables and further tuning.  For full details,
 see `uWSGI magic
 variables <https://uwsgi-docs.readthedocs.org/en/latest/Vars.html>`_.
@@ -418,7 +418,7 @@ Chameleon
 `Chameleon <https://chameleon.readthedocs.org/>`_ Page Templates are an HTML/XML template
 engine implementation of the `Template Attribute Language (TAL) <http://en.wikipedia.org/wiki/Template_Attribute_Language>`_,
 `TAL Expression Syntax (TALES) <http://chameleon.readthedocs.org/en/latest/reference.html#expressions-tales>`_,
-and `Macro Expansion TAL (Metal) <http://chameleon.readthedocs.org/en/latest/reference.html#macros-metal>` syntaxes.
+and `Macro Expansion TAL (Metal) <http://chameleon.readthedocs.org/en/latest/reference.html#macros-metal>`_ syntaxes.
 
 Chameleon is available for Python 2.5 and up (including 3.x and pypy), and
 is commonly used by the `Pyramid Framework <http://trypyramid.com>`_.
